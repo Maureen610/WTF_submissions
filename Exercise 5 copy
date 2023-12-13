@@ -1,0 +1,53 @@
+'''My name is Maureen Amuche Nwobodo'''
+'''Question 1'''
+'''Factors = []
+n=int(input("Enter any number: "))
+s =0 
+for i in range (1,n):
+    if n%i==0:
+        Factors.append(i)
+        s+=i
+if s==n:
+    print(f"{n} is perfect")
+elif s>n:
+    print(f"{n} is abundant")         
+else:
+    print(f"{n} is deficient")'''
+'''Question 2'''
+Factors = []
+n=int(input("Enter any number: "))
+s = 0
+for j in range (1,n + 1):
+    for i in range (1,j):
+        if j % i == 0:
+          Factors.append(i)
+          s = s + i
+    if s == n:
+        print(f"{j} is perfect")
+    elif s > j:
+        print(f"{j} is abundant")        
+    else:
+        print(f"{j} is deficient")
+'''Question 3'''
+'''while True:
+   guess=int(input("Guess the number between 0 and 100:"))
+   answer=67
+   if guess == answer:
+     print("You Won!!")
+     break
+   elif answer <guess <= 100:
+     print("Your guess is too high")
+   elif guess <answer:
+     print("Your guess is too low")
+   else :
+     break'''
+'''Question 4'''
+'''num=int(input("enter a number to start: "))
+answer=[num]
+while num!=1:
+    if num % 2==0:
+        num=int(num/2)
+    else:
+       num=(num*3)+1
+    answer.append(num)
+print(answer)'''
